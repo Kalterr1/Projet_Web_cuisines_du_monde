@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Cuisines du Monde</title>
+    <link rel="stylesheet" href="Style.css">
+    <script defer src="Script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Les Cuisines du Monde</h1>
+    </header>
+    <nav class="sticky-nav">
+        <div class="navbar">
+            <div class="logo">Cuisines du Monde</div>
+            <div class="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <a href="Accueil.html">Accueil</a>
+                <li class="dropdown">
+                    <a href="#">Europe</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Italie.html">Italie</a></li>
+                        <li><a href="France.html">France</a></li>
+                        <li><a href="Espagne.html">Espagne</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Asie</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Japon.html">Japon</a></li>
+                        <li><a href="Chine.html">Chine</a></li>
+                        <li><a href="Inde.html">Inde</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Afrique</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Maroc.html">Maroc</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Amériques</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Mexique.html">Mexique</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="image-switch">
+        <img src="images/Cuisine-marocaine-5-recettes-pour-s-y-mettre.jpg" class="active">
+        <img src="images/Cuisine-marocaine-5-recettes-pour-s-y-mettre.jpg">
+        <img src="images/Cuisine-marocaine-5-recettes-pour-s-y-mettre.jpg">
+        
+        <div class="switch-controls">
+          <button onclick="switchImage(0)">Image 1</button>
+          <button onclick="switchImage(1)">Image 2</button>
+          <button onclick="switchImage(2)">Image 3</button>
+        </div>
+      </div>
+
+    <footer>
+        <p>&copy; 2025 Les Cuisines du Monde</p>
+    </footer>
+</body>
+</html>
